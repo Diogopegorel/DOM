@@ -10,5 +10,11 @@ function newImage(_event) {
     img.src = 'img2.jpg';
 }
 
+function newColor(_event) {
+    const color = document.querySelector('#mainDiv');
+    color.classList.add("green");
+}
+
 button.addEventListener('click', newImage);
-button.addEventListener('click', newText);    
+button.addEventListener('click', newText);
+button.addEventListener('click', newColor);   
