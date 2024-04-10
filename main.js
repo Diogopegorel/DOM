@@ -1,4 +1,6 @@
-const button = document.querySelector('#changeText');
+const button1 = document.querySelector('#changeText');
+const button2 = document.querySelector('#changeImage');
+const button3 = document.querySelector('#changeColor');
 
 function newText(_event) {
     const p = document.querySelector('#myParagraph');
@@ -15,6 +17,6 @@ function newColor(_event) {
     color.classList.add("green");
 }
 
-button.addEventListener('click', newImage);
-button.addEventListener('click', newText);
-button.addEventListener('click', newColor);   
+button2.addEventListener('click', newImage);
+button1.addEventListener('click', newText);
+button3.addEventListener('click', newColor);   
